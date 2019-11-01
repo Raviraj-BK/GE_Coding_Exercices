@@ -61,7 +61,7 @@ public class BankTest {
     	depositToAccountTest();
     	withdrawFromAccountTest();
         assertEquals("Loss",  bank.getNextMonthPrediction());
-        System.out.println(bank.getNextMonthPrediction());
+        //System.out.println(bank.getNextMonthPrediction());
         System.out.println(bank.getSumOfCurrentHoldings());
     }
 }
